@@ -1,0 +1,6 @@
+{
+  "channel" : "", // channel name
+  "username" : "", // bot user name
+  "password" : "", // twitch oauth pass
+  "token": "" // discord bot token
+}

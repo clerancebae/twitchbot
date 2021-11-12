@@ -159,10 +159,10 @@ client.on('message', (channel, userstate, message, fromSelf) => {
         });
     }
 })
-
+// groke.se sitesinden spotify apini alıyorsun.
 client.on("chat", (channel, user, message, self) => {
     if (message.includes('!şarkı')) {
-        request({url: 'https://groke.se/twitch/spotify/?ceedec8ae48076e1a8448fb4851887a9', json: true}, function(err, res, json) {
+        request({url: 'buraya', json: true}, function(err, res, json) {
             if (err) {
                 throw err;
             }else{
@@ -178,9 +178,10 @@ client.on("chat", (channel, user, message, self) => {
         });
     }
 });
+// ur taking your spotify api from groke.se
 client.on("chat", (channel, user, message, self) => {
     if (message.includes('!song')) {
-        request({url: 'https://groke.se/twitch/spotify/?ceedec8ae48076e1a8448fb4851887a9', json: true}, function(err, res, json) {
+        request({url: 'here', json: true}, function(err, res, json) {
             if (err) {
                 throw err;
             }else{
